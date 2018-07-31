@@ -24,17 +24,9 @@ for (let i = 0; i < 101; i+=5) {
 
 // kata 5
 console.log("Display the square numbers up to 100.")
-// let kata5 = 0;
-// while (kata5 < 11) {
-//     console.log(i);
-//     kata5= (i * i);
-//     kata5++;
-// }
-
-for (let i = 0; i > 11; i++) {
-    console.log(i);
-    i = i * i;
+for (let i = 0; i < 11; i++) {
     
+        console.log(i * i);    
 }
 
 // kata 6
@@ -63,3 +55,6 @@ for (let i = 100; i > 0; i-=5) {
 
 // kata 10
 console.log("Display the square numbers, counting down from 100.")
+for (let i = 0; i < 11; i--) {
+    console.log(i * i);
+}
